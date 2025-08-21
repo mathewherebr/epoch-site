@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Epoch - Blog de Atualizações</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(90deg, #1A75CF, #E2231A);
+      color: white;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header h1 { margin: 0; font-size: 26px; }
+    nav a { color: white; margin-left: 20px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+
+    .banner {
+      background: url('https://upload.wikimedia.org/wikipedia/commons/6/6b/Roblox_logo_2015.png') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 36px;
+      font-weight: bold;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+    }
+
+    .container { max-width: 1100px; margin: 40px auto; padding: 0 20px; }
+    .highlight { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 6px 12px rgba(0,0,0,0.1); margin-bottom: 40px; }
+    .highlight img { width: 100%; max-width: 350px; height: auto; }
+    .highlight-content { padding: 20px; flex: 1; }
+    .highlight-content h2 { margin-top: 0; font-size: 28px; color: #1A75CF; }
+    .highlight-content p { margin: 15px 0; font-size: 16px; line-height: 1.5; }
+    .btn { display: inline-block; padding: 12px 20px; background: #1A75CF; color: white; font-weight: bold; border-radius: 30px; text-decoration: none; transition: background 0.2s; }
+    .btn:hover { background: #E2231A; }
+
+    .updates { padding: 40px; max-width: 900px; margin: auto; }
+    .updates h2 { text-align: center; margin-bottom: 30px; }
+    .card { background: white; border-radius: 15px; padding: 20px; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.2s; }
+    .card:hover { transform: scale(1.02); }
+    .card img { width: 100%; display: block; }
+    .date { font-size: 14px; color: gray; }
+    .card-body { padding: 15px; }
+    .card-body h3 { margin: 10px 0; font-size: 18px; color: #1A75CF; }
+    .card-body p { font-size: 14px; color: #555; }
+
+    .sobre { background: #1A75CF; color: white; padding: 40px; text-align: center; }
+    .sobre h2 { margin-bottom: 20px; }
+
+    footer { background: #222; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+    footer a { color: #1A75CF; margin: 0 10px; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Epoch</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#updates">Atualizações</a>
+      <a href="#sobre">Sobre</a>
+      <a href="https://www.roblox.com/" target="_blank">Jogue Agora</a>
+    </nav>
+  </header>
+
+  <section class="banner" id="home">
+    Bem-vindo ao Epoch
+  </section>
+
+  <div class="container">
+    <section class="highlight">
+      <img src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-420-420-AvatarHeadshot/Webp/noFilter" alt="Atualização">
+      <div class="highlight-content">
+        <h2>⚔️ Nova Era do Epoch</h2>
+        <p>A temporada clássica chegou! Reviva os tempos de ouro do Roblox (2014-2016) em batalhas épicas. Explore mapas nostálgicos e enfrente jogadores lendários.</p>
+        <a href="#" class="btn">Ler Mais →</a>
+      </div>
+    </section>
+
+    <section class="updates" id="updates">
+      <h2>📢 Últimas Atualizações</h2>
+      <div class="card">
+        <p class="date">21/08/2025</p>
+        <h3>🚀 Lançamento do Site</h3>
+        <p>O site oficial do Epoch está no ar! Aqui você poderá acompanhar todas as novidades do jogo.</p>
+      </div>
+      <div class="card">
+        <p class="date">20/08/2025</p>
+        <h3>⚔️ Nova Espada Clássica</h3>
+        <p>Adicionamos uma espada clássica inspirada nos jogos antigos do Roblox!</p>
+      </div>
+
+      <section class="grid">
+        <div class="card">
+          <img src="https://tr.rbxcdn.com/30DAY-AvatarBust-420-420-AvatarBust/Webp/noFilter" alt="Update 1">
+          <div class="card-body">
+            <h3>🔥 Atualização de Armas</h3>
+            <p>Adicionamos espadas clássicas dos jogos antigos do Roblox.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://tr.rbxcdn.com/30DAY-AvatarBust-420-420-AvatarBust/Webp/noFilter" alt="Update 2">
+          <div class="card-body">
+            <h3>🏰 Novo Mapa</h3>
+            <p>Um castelo inspirado nos jogos de 2015 foi adicionado ao Epoch.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://tr.rbxcdn.com/30DAY-AvatarBust-420-420-AvatarBust/Webp/noFilter" alt="Update 3">
+          <div class="card-body">
+            <h3>👥 Sistema de Clãs</h3>
+            <p>Agora você pode criar e batalhar junto com seu clã!</p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="sobre" id="sobre">
+      <h2>Sobre o Epoch</h2>
+      <p>Epoch é um jogo de batalhas inspirado nos tempos clássicos do Roblox.<br>
+      Junte-se aos combates, reviva a nostalgia de 2014-2016 e mostre quem é o verdadeiro campeão!</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 Epoch - Todos os direitos reservados.</p>
+    <p>
+      <a href="https://discord.gg/" target="_blank">Discord</a> | 
+      <a href="https://www.roblox.com/groups/" target="_blank">Grupo Roblox</a>
+    </p>
+  </footer>
+
+</body>
+</html>
